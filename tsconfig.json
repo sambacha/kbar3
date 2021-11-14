@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "DOM"
+    ],
+    "target": "esnext",
+    "strict": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "kbar": ["./src"]
+    },
+    "typeRoots": [
+      "src/types",
+      "node_modules/@types"
+    ]
+  },
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist", "example"]
+}
